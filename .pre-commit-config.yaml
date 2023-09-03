@@ -31,7 +31,7 @@ repos:
       - id: black
 
   - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.0.286
+    rev: v0.0.287
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix]
@@ -43,6 +43,6 @@ repos:
         args: [--profile, black]
 
   - repo: https://github.com/dnephin/pre-commit-golang
-    rev: master
+    rev: v0.5.1
     hooks:
       - id: go-fmt
